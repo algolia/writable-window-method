@@ -1,6 +1,6 @@
 {
   "name": "writable-window-method",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Turn any window method to a writable state in IE<=8",
   "main": "index.js",
   "scripts": {
