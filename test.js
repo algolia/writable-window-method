@@ -15,7 +15,7 @@ test('we can override setTimeout', function(t) {
     return 'WELL!';
   };
 
-  t.equal(setTimeout(function() {}, 10), 'WELL!', 'setTimeout() was overriden');
+  t.equal(setTimeout(function() {}, 20), 'WELL!', 'setTimeout() was overriden');
 
   writable.restore();
 
