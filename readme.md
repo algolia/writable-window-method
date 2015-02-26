@@ -78,7 +78,5 @@ Uses [eslint](http://eslint.org/), see [.eslintrc](./.eslintrc).
 [license-url]: LICENSE
 [downloads-image]: https://img.shields.io/npm/dm/writable-window-method.svg?style=flat-square
 [downloads-url]: http://npm-stat.com/charts.html?package=writable-window-method
-[browser-test-matrix]: https://saucelabs.com/browser-matrix/algolia-writable-window-method.svg
+[browser-test-matrix]: https://saucelabs.com/browser-matrix/opensauce-writable.svg
 [browser-test-url]: https://saucelabs.com/u/algolia-writable-window-method
-
-
