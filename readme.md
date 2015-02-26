@@ -1,4 +1,5 @@
-# writable-window-method <sup>[![Version Badge][npm-version-svg]][package-url]</sup> [![Build Status][travis-svg]][travis-url] [![License][license-image]][license-url] [![Downloads][downloads-image]][downloads-url]
+# writable-window-method <sup>[![Version Badge][npm-version-svg]][package-url]</sup>
+[![Build Status][travis-svg]][travis-url] [![License][license-image]][license-url] [![Downloads][downloads-image]][downloads-url]
 
 [![Browser tests][browser-test-matrix]][browser-test-url]
 
