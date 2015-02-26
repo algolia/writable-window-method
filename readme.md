@@ -58,7 +58,7 @@ We also added a couple of handy properties/methods for you to ease testing.
 npm run dev
 ```
 
-Go to http://localhost:8080/__zuul.
+Go to <http://localhost:8080/__zuul>.
 
 [Tests](./test/) are written with [tape](https://github.com/substack/tape) and run through [zuul](https://github.com/defunctzombie/zuul).
 
