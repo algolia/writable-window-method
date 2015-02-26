@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo 'use either npm run dev or npm run test-ci'",
-    "test-ci": "zuul test.js && npm run lint",
+    "test-ci": "zuul --sauce-connect $TRAVIS_JOB_NUMBER test.js && npm run lint",
     "lint": "eslint --quiet .",
     "dev": "zuul --local 8080 test.js"
   },
