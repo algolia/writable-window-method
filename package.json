@@ -1,6 +1,6 @@
 {
   "name": "writable-window-method",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Turn any window method to a writable state in IE<=8",
   "main": "index.js",
   "scripts": {
@@ -25,6 +25,6 @@
     "zuul": "2.0.0"
   },
   "dependencies": {
-    "lodash-compat": "3.3.1"
+    "lodash-compat": "3.5.0"
   }
 }
