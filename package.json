@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo 'use either npm run dev or npm run test-ci'",
-    "test-ci": "zuul --sauce-connect -- test.js && npm run lint",
+    "test-ci": "DEBUG=zuul* zuul --tunnel ngrok test.js && npm run lint",
     "lint": "eslint --quiet .",
-    "dev": "zuul --local 8080 test.js"
+    "dev": "DEBUG=zuul* zuul --local 8080 test.js"
   },
   "keywords": [
     "window",
@@ -22,7 +22,8 @@
   "devDependencies": {
     "eslint": "0.15.0",
     "tape": "3.5.0",
-    "zuul": "2.0.0"
+    "zuul": "2.1.1",
+    "zuul-ngrok": "3.0.0"
   },
   "dependencies": {
     "lodash-compat": "3.5.0"

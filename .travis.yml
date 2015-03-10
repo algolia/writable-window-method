@@ -3,8 +3,6 @@ node_js:
   - "0.10"
 install: npm install
 script: npm run test-ci
-addons:
-  sauce_connect: true
 env:
   global:
     - secure: ReVNdoUkb4HiH5xnp+vOjKqm7W0YreERig0Du4jZtt+fPwVOzi1Z6AxZpBE2ev/bcUPyMdjzFGHVESRKWiOTGxUSX6OLmWTu0+YsDd5oznXRlEoYpK4kHf0VafGtVYGpg78iSZNgl05DBRnmvy9rJCML4cQ68K9SF/Fg/hgKJGY=
